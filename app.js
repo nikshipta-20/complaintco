@@ -12,10 +12,10 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 const pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: '#Nikki20/9mysql',
-    database: 'complaint_co'
+    host: 'badjojjezuaihubgeijd-mysql.services.clever-cloud.com',
+    user: 'uhy7wqexbc0jyleo',
+    password: 'Oq4l18OqGJVJ2855zyKr',
+    database: 'badjojjezuaihubgeijd'
 });
 
 pool.getConnection(function(err) {
